@@ -15,3 +15,11 @@ Pythonで売上データを分析するツール。PandasでCSVを処理し、Ma
 ## 今後の予定
 - WebスクレイピングやDXダッシュボードを追加！
 - 
+
+
+
+## プロジェクト2: Webスクレイピング
+- **説明**: Books to Scrapeから本のタイトルと価格を抽出。RequestsとBeautifulSoupを使用。
+- **ファイル**: `scraper.py`
+- **使い方**: `scraper.py`を実行で本のリスト表示。
+- **使用技術**: Python, Requests, BeautifulSoup
