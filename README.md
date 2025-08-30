@@ -23,3 +23,16 @@ Pythonで売上データを分析するツール。PandasでCSVを処理し、Ma
 - **ファイル**: `scraper.py`
 - **使い方**: `scraper.py`を実行で本のリスト表示。
 - **使用技術**: Python, Requests, BeautifulSoup
+
+
+
+## プロジェクト3: Flaskで挨拶アプリ（Colab対応）
+
+- **説明**: ユーザーが名前を入力すると、Web上で「こんにちは、〇〇さん！」と挨拶を返すアプリ。Google Colab上でFlaskを起動し、ngrokで外部公開。
+- **ファイル**: `2025_0830_flask.py`
+- **使い方**:
+  1. Colabで `2025_0830_flask.py` を実行
+  2. 出力された ngrok のURLにアクセス
+  3. 名前を入力して送信すると、挨拶が表示される
+- **使用技術**: Python, Flask, pyngrok
+- **備考**: ngrokの認証トークンが必要
